@@ -1,21 +1,20 @@
 tool:
-  name: "§r§aInfo Tool"
+  name: "&r&aInfo Tool" # Item name
 
 # {name}, {id}, {meta}.
 # {color.red}, {color.green}, {color.blue}, {color.alpha}.
 # {x}, {y}, {z}, {distance}.
 # {biome}, {world}.
 # {isSolid}, {canHarvestWithHand}, {canPassThrough}, {isNormal}.
-
-block-info: "§f{name} §7[{id}:{meta}] §aColor: §f{color.red}, {color.green}, {color.blue}.\n§aPosition: §f{x}, {y}, {z}. §aDistance: §f{distance}.\n§aBiome: §f{biome}. §aWorld §f{world}. §aLight: §f{light}."
+block-info: "&f{name} &7[{id}:{meta}] &aColor: &f{color.red}, {color.green}, {color.blue}.\n&aPosition: &f{x}, {y}, {z}. &aDistance: &f{distance}.\n&aBiome: &f{biome}. &aWorld &f{world}. &aLight: &f{light}."
 
 # {name}, {tag}, {id}.
 # {x}, {y}, {z}, {distance}.
 # {biome}, {world}.
+entity-info: "&f{name} &7[NetworkID: {id}]\n&aPosition: &f{x}, {y}, {z}. &aDistance: &f{distance}."
 
-entity-info: "§f{name} §7[NetworkID: {id}]\n§aPosition: §f{x}, {y}, {z}. §aDistance: §f{distance}."
-
+# Message list
 messages:
-  received: "§aYou have successfully got the information tool!"
-  permission: "§cYou don't have permission to use this!"
-  ingame: "§cUse this command only in the game."
+  received: "&aYou have successfully got the information tool!"
+  permission: "&cYou don't have permission to use this!"
+  ingame: "&cUse this command only in the game."

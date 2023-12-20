@@ -1,9 +1,8 @@
 name: ${project.name}
 version: ${project.version}
 api: ["1.0.8"]
-author: The Oni
-description: ${project.description}
-main: theoni.infotool.Main
+author: MEFRREEX
+main: com.mefrreex.infotool.InfoTool
 
 permissions:
   infotool.use:
